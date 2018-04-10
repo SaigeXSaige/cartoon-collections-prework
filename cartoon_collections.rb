@@ -21,7 +21,7 @@ def find_the_cheese(strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
   strings.find do |food|
     for cheese in cheese_types
-      food == cheese
+      food cheese
     end
   end
 end
