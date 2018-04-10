@@ -6,7 +6,9 @@ end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.collect do |calls|
-    calls.split.split
+    calls.split.collect do |call|
+      call.split
+    end
   end
 end
 
