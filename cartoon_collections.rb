@@ -20,6 +20,6 @@ def find_the_cheese(strings)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   strings.find do |cheese|
-    cheese == cheese_type
+    cheese == cheese_types
   end
 end
